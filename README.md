@@ -9,6 +9,7 @@ Config As Code, to build my config anywhere in a click
 * Launchy
 * Office Suite
 * Putty
+* Python
 * Ungit
 * Visual Studio
 
@@ -24,12 +25,13 @@ choco install git
 choco install vscode 
 choco install putty
 choco install googlechrome
+choco install python
 choco install nodejs
 npm install -g ungit
 ```
 One line command :
 ``` 
-choco install launchy git vscode putty googlechrome nodejs -y && npm install -g ungit
+choco install launchy git vscode putty googlechrome python nodejs -y && npm install -g ungit
 ```
 ## Launchy
 ### Softs to bind
