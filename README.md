@@ -54,4 +54,5 @@ choco install launchy git vscode putty googlechrome python nodejs -y && "c:\Prog
 * [Le Bon Coin](https://leboncoin.fr)
 * [Messenger](https://messenger.com)
 * [Stackoverflow](https://stackoverflow.com)
+* [YouTube](https://youtube.com)
 
