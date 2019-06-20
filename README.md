@@ -33,7 +33,7 @@ choco install launchy git vscode putty googlechrome nodejs -y && npm install -g 
 ## Launchy
 ### Softs to bind
 * Chrome
-* Git Bash
+* Git Bash (admin)
 * Putty
 * Visual Studio
 * Shortcuts
