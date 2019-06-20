@@ -32,11 +32,11 @@ npm install -g ungit
 * Visual Studio
 
 ### Websites to bind (using chrome)
-* Amazon
-* Facebook
-* Gdrive
-* Github
-* Gmail
-* Keep
-* Stackoverflow
+* [Amazon](https://www.amazon.fr/)
+* [Facebook](https://www.facebook.com/)
+* [Gdrive](https://www.google.com/drive/)
+* [Github](https://github.com/)
+* [Gmail](https://mail.google.com/)
+* [Keep](http://keep.google.com)
+* [Stackoverflow](https://stackoverflow.com)
 
