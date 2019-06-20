@@ -31,7 +31,7 @@ npm install -g ungit
 ```
 One line command :
 ``` 
-choco install launchy git vscode putty googlechrome python nodejs -y && npm install -g ungit
+choco install launchy git vscode putty googlechrome python nodejs -y && "c:\Program Files\nodejs\npm" install -g ungit
 ```
 ## Launchy
 ### Softs to bind
