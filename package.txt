@@ -1,0 +1,7 @@
+launchy
+git
+vscode
+putty
+googlechrome
+python
+nodejs
