@@ -1,7 +1,7 @@
 # CAC
 Config As Code, to build my config anywhere in a click
 
-## Soft to install 
+### Soft to install 
 * Chocolatey
 * Chrome
 * Git
@@ -10,6 +10,14 @@ Config As Code, to build my config anywhere in a click
 * Putty
 * Visual Studio
 
+## Chocolatey
+```
+choco install launchy
+choco install git
+choco install vscode
+choco install putty
+choco install googlechrome
+```
 ## Launchy
 ### Soft
 * Chrome
