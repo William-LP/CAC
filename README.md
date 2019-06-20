@@ -8,6 +8,7 @@ Config As Code, to build my config anywhere in a click
 * Git Bash
 * Launchy
 * Putty
+* Ungit
 * Visual Studio
 
 ## Chocolatey
@@ -20,6 +21,8 @@ choco install git
 choco install vscode
 choco install putty
 choco install googlechrome
+choco install nodejs
+npm install -g ungit
 ```
 ## Launchy
 ### Soft
