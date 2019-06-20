@@ -52,5 +52,6 @@ choco install launchy git vscode putty googlechrome python nodejs -y && npm inst
 * [Gmail](https://mail.google.com/)
 * [Keep](http://keep.google.com)
 * [Le Bon Coin](https://leboncoin.fr)
+* [Messenger](https://messenger.com)
 * [Stackoverflow](https://stackoverflow.com)
 
