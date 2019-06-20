@@ -25,13 +25,13 @@ choco install nodejs
 npm install -g ungit
 ```
 ## Launchy
-### Soft
+### Softs to bind
 * Chrome
 * Git Bash
 * Putty
 * Visual Studio
 
-### Website
+### Websites to bind (using chrome)
 * Amazon
 * Facebook
 * Gdrive
