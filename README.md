@@ -7,6 +7,7 @@ Config As Code, to build my config anywhere in a click
 * Git
 * Git Bash
 * Launchy
+* Office Suite
 * Putty
 * Ungit
 * Visual Studio
@@ -37,6 +38,9 @@ choco install launchy git vscode putty googlechrome nodejs -y && npm install -g 
 * Putty
 * Visual Studio
 * Shortcuts
+* Word
+* Excel
+* PowerPoint
 
 ### Websites to bind (using chrome)
 * [Amazon](https://www.amazon.fr/)
