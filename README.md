@@ -36,6 +36,7 @@ choco install launchy git vscode putty googlechrome nodejs -y && npm install -g 
 * Git Bash
 * Putty
 * Visual Studio
+* Shortcuts
 
 ### Websites to bind (using chrome)
 * [Amazon](https://www.amazon.fr/)
