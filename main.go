@@ -29,7 +29,7 @@ func main() {
 	scanner := bufio.NewScanner(listeChocoPackage)
 	for scanner.Scan() {
 		chocoPackage := scanner.Text()
-		chocoLine := "choco install -y" + chocoPackage
+		chocoLine := "choco install -y " + chocoPackage
 
 		shell(chocoLine)
 
