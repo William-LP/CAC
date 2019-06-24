@@ -1,7 +1,7 @@
 # Chocolatey's installation
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-$packageList = Get-Content "$($PSScriptRoot)\package.txt"
+$packageList = Get-Content "$($PSScriptRoot)\choco_packages.txt"
 
 # Packages' installation using chocolatey
 foreach($package in $packageList) {

@@ -1,30 +1,17 @@
 package main
 
 import (
-
-"os/exec"
-"bufio"
-"log"
-"os"
-
+	"bufio"
+	"log"
+	"os"
+	"os/exec"
 )
 
-func main() {
-	choco := "choco"
-	option := "install"
-	param := "-y"
 
+func shell(command string) {
 
-    listePackage, err := os.Open("./package.txt")
-	if err != nil {
-		log.Fatal(err)
-	}
-    defer listePackage.Close()
+	cmd := exec.Command(command)
 
-    scanner := bufio.NewScanner(listePackage)
-	for scanner.Scan() {
-		chocoPackage := scanner.Text()
-		cmd := exec.Command(choco, option, chocoPackage ,param)
 	stdout, err := cmd.Output()
 
 	if err != nil {
@@ -35,9 +22,20 @@ func main() {
 	print(string(stdout))
 }
 
-	if err := scanner.Err(); err != nil {
-		log.Fatal(err)
+func main() {
+
+	listeChocoPackage, _ := os.Open("./choco_packages.txt")
+
+	scanner := bufio.NewScanner(listeChocoPackage)
+	for scanner.Scan() {
+		chocoPackage := scanner.Text()
+		chocoLine := "choco install -y" + chocoPackage
+
+		shell(chocoLine)
+
+		if err := scanner.Err(); err != nil {
+			log.Fatal(err)
+		}
 	}
+	shell("npm install -g ungit")
 }
-
-
