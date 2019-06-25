@@ -8,9 +8,15 @@ import (
 )
 
 
-func shell(command string) {
-
-	cmd := exec.Command(command)
+// Install : allows to install package
+func Install(mode, pkg string) {
+	var cmd *exec.Cmd
+	switch(mode) {
+	case "choco" :
+		cmd = exec.Command("choco", "install", pkg, "-y")
+	case "npm" :
+		cmd = exec.Command("npm", "install", "-g", pkg)
+	}
 
 	stdout, err := cmd.Output()
 
@@ -29,13 +35,13 @@ func main() {
 	scanner := bufio.NewScanner(listeChocoPackage)
 	for scanner.Scan() {
 		chocoPackage := scanner.Text()
-		chocoLine := "choco install -y " + chocoPackage
+		log.Println("install :",chocoPackage)
 
-		shell(chocoLine)
+		Install("choco", chocoPackage)
 
 		if err := scanner.Err(); err != nil {
 			log.Fatal(err)
 		}
 	}
-	shell("npm install -g ungit")
+	Install("npm", "ungit")
 }
