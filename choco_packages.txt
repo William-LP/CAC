@@ -5,3 +5,4 @@ putty
 googlechrome
 python
 nodejs
+adobereader
