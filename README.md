@@ -50,6 +50,7 @@ choco install launchy git vscode putty googlechrome python nodejs -y && "c:\Prog
 * [Gdrive](https://www.google.com/drive/)
 * [Github](https://github.com/)
 * [Gmail](https://mail.google.com/)
+* [Gmaps](https://www.google.com/maps)
 * [Keep](http://keep.google.com)
 * [Le Bon Coin](https://leboncoin.fr)
 * [Messenger](https://messenger.com)
