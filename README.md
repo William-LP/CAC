@@ -57,3 +57,7 @@ choco install launchy git vscode putty googlechrome python nodejs -y && "c:\Prog
 * [Stackoverflow](https://stackoverflow.com)
 * [YouTube](https://youtube.com)
 
+### To do
+
+* Download photo & set them as dynamic background
+
