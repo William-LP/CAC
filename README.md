@@ -12,6 +12,7 @@ Config As Code, to build my config anywhere in a click
 * Python
 * Ungit
 * Visual Studio
+* WinSCP
 
 ## Chocolatey
 In an **administrator** cmd :
@@ -27,6 +28,8 @@ choco install putty
 choco install googlechrome
 choco install python
 choco install nodejs
+choco install adobereader
+choco install winscp
 npm install -g ungit
 ```
 One line command :
