@@ -4,7 +4,6 @@ vscode
 putty
 googlechrome
 python
-nodejs
 adobereader
 winscp
 mysql.workbench
