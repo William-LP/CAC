@@ -7,3 +7,4 @@ python
 nodejs
 adobereader
 winscp
+mysql.workbench

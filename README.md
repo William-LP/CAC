@@ -12,6 +12,7 @@ Config As Code, to build my config anywhere in a click
 * Python
 * Visual Studio
 * WinSCP
+* MySQL Workbench
 
 ## Chocolatey
 In an **administrator** cmd :
@@ -28,10 +29,11 @@ choco install googlechrome
 choco install python
 choco install adobereader
 choco install winscp
+choco install mysql.workbench
 ```
 One line command :
 ``` 
-choco install launchy git vscode putty googlechrome python -y"
+choco install launchy git vscode putty googlechrome python adobereader winscp mysql.workbench -y"
 ```
 ## Launchy
 ### Softs to bind
@@ -43,6 +45,8 @@ choco install launchy git vscode putty googlechrome python -y"
 * Word
 * Excel
 * PowerPoint
+* WinSCP
+* MySQL Workbench
 
 ### Websites to bind (using chrome)
 * [Amazon](https://www.amazon.fr/)
