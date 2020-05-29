@@ -8,9 +8,6 @@ foreach($package in $packageList) {
     choco install $package -y
 }
 
-# Ungit's installation using npm (choclatey repo isn't up to date sadly)
-npm install -g ungit
-
 # Replace launchy.init with home made config
 Copy-Item -Path "launchy.ini" -Destination "$env:AppData/Launchy/launchy.ini" -force
 if ($?) {

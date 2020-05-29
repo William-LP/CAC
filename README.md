@@ -10,7 +10,6 @@ Config As Code, to build my config anywhere in a click
 * Office Suite
 * Putty
 * Python
-* Ungit
 * Visual Studio
 * WinSCP
 
@@ -27,14 +26,12 @@ choco install vscode
 choco install putty
 choco install googlechrome
 choco install python
-choco install nodejs
 choco install adobereader
 choco install winscp
-npm install -g ungit
 ```
 One line command :
 ``` 
-choco install launchy git vscode putty googlechrome python nodejs -y && "c:\Program Files\nodejs\npm" install -g ungit
+choco install launchy git vscode putty googlechrome python -y"
 ```
 ## Launchy
 ### Softs to bind
