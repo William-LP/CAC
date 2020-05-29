@@ -63,5 +63,8 @@ choco install launchy git vscode putty googlechrome python adobereader winscp my
 
 ### To do
 
+* Quit the go-thing; not really usefull honestly
+* Script the websites' linking within Launchy
+* Put the hand into the launchy.ini - might have good stuff to do in there
 * Download photo & set them as dynamic background
 
