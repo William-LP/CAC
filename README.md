@@ -13,6 +13,7 @@ Config As Code, to build my config anywhere in a click
 * Visual Studio
 * WinSCP
 * MySQL Workbench
+* Light Shot
 
 ## Chocolatey
 In an **administrator** cmd :
@@ -30,10 +31,11 @@ choco install python
 choco install adobereader
 choco install winscp
 choco install mysql.workbench
+choco install lightshot.install
 ```
 One line command :
 ``` 
-choco install launchy git vscode putty googlechrome python adobereader winscp mysql.workbench -y"
+choco install launchy git vscode putty googlechrome python adobereader winscp mysql.workbench lightshot.install -y"
 ```
 ## Launchy
 ### Softs to bind
