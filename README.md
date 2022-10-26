@@ -14,6 +14,7 @@ Config As Code, to build my config anywhere in a click
 * WinSCP
 * MySQL Workbench
 * Light Shot
+* microsoft-windows-terminal
 
 ## Chocolatey
 In an **administrator** cmd :
@@ -33,6 +34,7 @@ choco install adobereader
 choco install winscp
 choco install mysql.workbench
 choco install lightshot.install
+choco install microsoft-windows-terminal
 ```
 One line command :
 ``` 
