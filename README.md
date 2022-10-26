@@ -16,6 +16,7 @@ Config As Code, to build my config anywhere in a click
 * Light Shot
 * Golang
 * Microsoft Windows Terminal
+* 7zip
 
 ## Chocolatey
 In an **administrator** cmd :
@@ -37,6 +38,7 @@ choco install mysql.workbench
 choco install lightshot.install
 choco install microsoft-windows-terminal
 choco install golang
+choco install 7zip.install
 ```
 One line command :
 ``` 
